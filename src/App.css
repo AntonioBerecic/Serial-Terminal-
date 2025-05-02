@@ -1,0 +1,75 @@
+* {
+  background-color: #352e2e;
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+}
+
+button,
+datalist {
+  background-color: rgb(85, 85, 85);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(102, 102, 102);
+}
+
+input[type=text] {
+  color: rgb(1, 0, 3);
+  color: rgb(255, 255, 255);
+  border: 1px solid;
+  border-color: rgb(69, 98, 228) rgb(69, 98, 228) rgb(69, 98, 228) rgb(69, 98, 228);
+  padding: 8px;
+  font-size: 16px;
+}
+
+#serialResults {
+  font-family: monospace;
+  white-space: pre;
+  height: 800px;
+  width: calc(100% - 20px);
+  border-style: solid;
+  overflow: scroll;
+  background-color: rgb(88, 92, 92);
+  padding: 10px;
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-container input[type=text] {
+  flex: 1; 
+  width: auto; 
+}
+
+.button-container button {
+  font-size: 16px;
+  padding: 8px 12px; 
+}
+
+input#baud {
+  width: 80px;
+  font-size: 16px; 
+  padding: 8px;
+}
+
+button.large {
+  width: 100px; 
+}
