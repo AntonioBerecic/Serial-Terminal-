@@ -34,14 +34,12 @@ Usage
         Select the desired serial port from the prompt.
 
         Set the appropriate baud rate and other configurations.
-        Fidisys Technologies+1Stack Overflow+1
 
     Send Data:
 
         Type your message into the input field.
 
         Press "Enter" or click "Send" to transmit the data.
-        Stack Overflow+1Fidisys Technologies+1
 
     Receive Data:
 
